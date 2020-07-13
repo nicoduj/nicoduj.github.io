@@ -28,6 +28,15 @@ about:
   Availability: Availability
   JobSearch : I like Building. When I was a child, my favorites toys were (and still are) Legos. In my experience, from small projects to big ones, with or without direct management of a team, what I like most is to build software, as a team, piece by piece, and see end-users use them and like them. I see development as a huge Lego game, where you have to build new pieces, and assemble existing ones. I would like now to focus on a real software project, build for and with end users. 
 
+facts:
+  Facts: Facts
+  Text: In the last 17 years, having the chance to play both sides - as a provider or as a customer - I have been involved in more than 10 major projects, for 4 differents countries (France, Belgium, Morocco, Brazil), and lead a team up to 17 people. From Development, Software Architecture, to CTO and what I call "soft" Management, I have always put my knowledge and efforts as a team tp build and integrate software for major banks and insurance.
+  TeamSize: Max Team size
+  MajorProjects: Major Projects
+  Experience: Years of Experience
+  Countries : Countires
+
+
 contact:
   Location: Location
   Phone: Phone
