@@ -10,22 +10,22 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ 'assets/img/favicon.png' | relative_url }}" rel="icon">
+  <link href="{{ 'assets/img/apple-touch-icon.png' | relative_url }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css"  rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css"  rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css"  rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css"  rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="{{ 'assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}"  rel="stylesheet">
+  <link href="{{ 'assets/vendor/icofont/icofont.min.css' | relative_url }}"  rel="stylesheet">
+  <link href="{{ 'assets/vendor/boxicons/css/boxicons.min.css' | relative_url }}"  rel="stylesheet">
+  <link href="{{ 'assets/vendor/venobox/venobox.css' | relative_url }}"  rel="stylesheet">
+  <link href="{{ 'assets/vendor/owl.carousel/assets/owl.carousel.min.css' | relative_url }}" rel="stylesheet">
+  <link href="{{ 'assets/vendor/aos/aos.css' | relative_url }}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css"rel="stylesheet">
+  <link href="{{ 'assets/css/style.css' | relative_url }}"rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: MyResume - v2.1.0
@@ -67,9 +67,9 @@
       <p lang="en">{% translate title.Prefixe %} <span class="typed" data-typed-items="{% translate title.Suffixe1 %},{% translate title.Suffixe2 %},{% translate title.Suffixe3 %} !"></span></p>
       {% for lang in site.languages %}
         {% if forloop.index0 == 0 %}
-          <a href="{{ page.url }}" class="footer__link">{{ lang }}</a>
+          <a href="{{ page.url | relative_url }}"  class="footer__link">{{ lang }}</a>
         {% else %}
-          |<a href="/{{ lang }}{{ page.url }}" class="footer__link">{{ lang }}</a>
+          |<a href="/{{ lang }}{{ page.url }} | relative_url" class="footer__link">{{ lang }}</a>
         {% endif %}
       {% endfor %}
 
@@ -96,7 +96,7 @@
 
         <div class="row">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="{{ 'assets/img/profile-img.jpg' | relative_url }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>UI/UX Designer &amp; Web Developer.</h3>
@@ -336,12 +336,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-1.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-1.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -350,12 +350,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-2.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-2.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -364,12 +364,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-3.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-3.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -378,12 +378,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-4.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-4.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -392,12 +392,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-5.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-5.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -406,12 +406,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-6.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-6.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -420,12 +420,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-7.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-7.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -434,12 +434,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-8.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-8.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -448,12 +448,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="{{ 'assets/img/portfolio/portfolio-9.jpg' | relative_url }}" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="{{ 'assets/img/portfolio/portfolio-9.jpg' | relative_url }}" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -570,7 +570,7 @@
         <div class="owl-carousel testimonials-carousel" data-aos="zoom-in" data-aos-delay="100">
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <img src="{{ 'assets/img/testimonials/testimonials-1.jpg' | relative_url }}" class="testimonial-img" alt="">
             <h3>Saul Goodman</h3>
             <h4>Ceo &amp; Founder</h4>
             <p>
@@ -581,7 +581,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <img src="{{ 'assets/img/testimonials/testimonials-2.jpg' | relative_url }}" class="testimonial-img" alt="">
             <h3>Sara Wilsson</h3>
             <h4>Designer</h4>
             <p>
@@ -592,7 +592,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <img src="{{ 'assets/img/testimonials/testimonials-3.jpg' | relative_url }}" class="testimonial-img" alt="">
             <h3>Jena Karlis</h3>
             <h4>Store Owner</h4>
             <p>
@@ -603,7 +603,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <img src="{{ 'assets/img/testimonials/testimonials-4.jpg' | relative_url }}" class="testimonial-img" alt="">
             <h3>Matt Brandon</h3>
             <h4>Freelancer</h4>
             <p>
@@ -614,7 +614,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <img src="{{ 'assets/img/testimonials/testimonials-5.jpg' | relative_url }}" class="testimonial-img" alt="">
             <h3>John Larson</h3>
             <h4>Entrepreneur</h4>
             <p>
@@ -692,20 +692,20 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="{{ 'assets/vendor/jquery/jquery.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/jquery.easing/jquery.easing.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/php-email-form/validate.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/waypoints/jquery.waypoints.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/counterup/counterup.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/isotope-layout/isotope.pkgd.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/venobox/venobox.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/owl.carousel/owl.carousel.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/typed.js/typed.min.js' | relative_url }}"></script>
+  <script src="{{ 'assets/vendor/aos/aos.js' | relative_url }}"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
 
 </body>
 
