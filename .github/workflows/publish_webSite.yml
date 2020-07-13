@@ -2,7 +2,8 @@ name: Testing the GitHub Pages publication
 
 on:
   push
-    
+    branches:
+    - master    
 jobs:
   jekyll:
     runs-on: ubuntu-16.04
