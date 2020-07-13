@@ -1,0 +1,13 @@
+menu:
+  Home: Home
+  About: About
+  Resume: Resume
+  Portfolio: Protfolio
+  Services: Services
+  Contact: Contact
+
+title:
+  Prefixe: I am a
+  Suffixe1: Former Developer
+  Suffixe2: Software Architect
+  Suffixe3: Software Addict
