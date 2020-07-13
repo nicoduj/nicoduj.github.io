@@ -1,13 +1,13 @@
 menu:
-  Home: Home
-  About: About
-  Resume: Resume
-  Portfolio: Protfolio
+  Home: Accueil
+  About: A propos
+  Resume: CV
+  Portfolio: Portfolio
   Services: Services
   Contact: Contact
 
 title:
-  Prefixe: I am a
-  Suffixe1: Former Developer
-  Suffixe2: Software Architect
-  Suffixe3: Software Addict
+  Prefixe: Je suis un
+  Suffixe1: Ancien Développeur
+  Suffixe2: Architecte Logiciel
+  Suffixe3: Fan de softs
