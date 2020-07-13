@@ -6,8 +6,31 @@ menu:
   Services: Services
   Contact: Contact
 
-title:
+hero:
   Prefixe: I am a
   Suffixe1: Former Developer
   Suffixe2: Software Architect
   Suffixe3: Software Addict
+
+about:
+  About: About
+  Text : Still a Developer in my head, I have a solid experience in team management focused on software building for business needs. After near 15 years of a great experience in a PME, and more than 2 years as a Software Architect for an insurance company, I am ready for new challenges !
+  Job1 : Software Architect
+  Job2 : Developer
+  JobSearchSummary : and open to soft management of a team that wants to build something new !
+  Birthday : Birthday
+  Website : Website
+  Phone : Phone
+  City : City
+  Age : Age
+  Degree : Degree
+  Emailone : Emailone
+  Availability: Availability
+  JobSearch : I like Building. When I was a child, my favorites toys were (and still are) Legos. In my experience, from small projects to big ones, with or without direct management of a team, what I like most is to build software, as a team, piece by piece, and see end-users use them and like them. I see development as a huge Lego game, where you have to build new pieces, and assemble existing ones. I would like now to focus on a real software project, build for and with end users. 
+
+contact:
+  Location: Location
+  Phone: Phone
+
+footer:
+  CatchPhrase: I like building, building software for real needs. 
