@@ -67,9 +67,9 @@
       <p lang="en">{% translate hero.Prefixe %} <span class="typed" data-typed-items="{% translate hero.Suffixe1 %},{% translate hero.Suffixe2 %},{% translate hero.Suffixe3 %} !"></span></p>
       {% for lang in site.languages %}
         {% if forloop.index0 == 0 %}
-          <a href="{{ page.url | prepend:site.baseurl }}" class="footer__link">{{ lang }}</a>
+          <a href="{{ page.url }}" class="footer__link">{{ lang }}</a>
         {% else %}
-          |<a href="{{ lang | prepend:site.baseurl }}{{ page.url }}" class="footer__link">{{ lang }}</a>
+          |<a href="{{ lang }}{{ page.url}}" class="footer__link">{{ lang }}</a>
         {% endif %}
       {% endfor %}
 
@@ -116,7 +116,7 @@
                 <ul>
                   <li><i class="icofont-rounded-right"></i> <strong>{% translate about.Age%} :</strong> 40</li>
                   <li><i class="icofont-rounded-right"></i> <strong>{% translate about.Degree%} :</strong> Master 2</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>{% translate about.Emailone%} :</strong> nicolas@dujardin.io</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>{% translate about.Email%} :</strong> nicolas@dujardin.io</li>
                   <li><i class="icofont-rounded-right"></i> <strong>{% translate about.Availability%} :</strong> 3 months</li>
                 </ul>
               </div>
