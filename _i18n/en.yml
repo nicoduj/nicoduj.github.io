@@ -38,7 +38,7 @@ facts:
 
 
 skills:
-  Title:
+  Title: Skills
   Text:
   One:
   Two:
@@ -47,11 +47,11 @@ skills:
   Five:
   Six:
 
-resume:
-  Title:
+resume: 
+  Title: Resume
   Text:
   Summary:
-  Education:
+  Education: Education
     Title:
     One:
       Title:
@@ -69,7 +69,7 @@ resume:
       Location:
       Text:
   Experience:
-    Title:
+    Title: Experience
     One:
       Title:
       Date:
@@ -116,7 +116,7 @@ portfolio:
   Perso3: Machine Learning playground      
   Pro1: Check Capture Projects
   Pro2: Documents Capture Projects
-  Pro3: New soltuion for Identity Document processing   
+  Pro3: New solution for Identity Document processing   
 
 portfolioDetail:
   Categorie:
@@ -161,7 +161,7 @@ portfolioDetail:
     Desc:                              
 
 services:
-  Title:
+  Title: Services
   Text:
   One:
     Title:
