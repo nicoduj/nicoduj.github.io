@@ -37,6 +37,166 @@ facts:
   Countries : Countires
 
 
+skills:
+  Title:
+  Text:
+  One:
+  Two:
+  Three:
+  Four:
+  Five:
+  Six:
+
+resume:
+  Title:
+  Text:
+  Summary:
+  Education:
+    Title:
+    One:
+      Title:
+      Date:
+      Location:
+      Text:
+    Two:
+      Title:
+      Date:
+      Location:
+      Text:
+    Three:
+      Title:
+      Date:
+      Location:
+      Text:
+  Experience:
+    Title:
+    One:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3:      
+    Two:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3:
+    Three:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3: 
+    Four:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3: 
+    Five:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3:                                            
+
+portfolio:
+  Title:
+  Text:
+  Filter1:
+  Filter2:
+  Perso1:
+  Perso2:
+  Perso3:      
+  Pro1:
+  Pro2:
+  Pro3:    
+
+portfolioDetail:
+  Categorie:
+  Client:
+  ProjectDate:
+  ProjectURL:
+  Perso1:
+    Title:
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Perso2:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Perso3:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Pro1:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Pro2:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Pro3:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:                              
+
+services:
+  Title:
+  Text:
+  One:
+    Title:
+    Text:
+  Two:
+    Title:
+    Text: 
+  Three:
+    Title:
+    Text: 
+  Four:
+    Title:
+    Text: 
+  Five:
+    Title:
+    Text: 
+  Six:
+    Title:
+    Text:                                   
+
+testimonials:
+  Title:
+  One:
+    Name:
+    Function:
+    Text:
+  Two:
+    Name:
+    Function:
+    Text:
+  Three:
+    Name:
+    Function:
+    Text:            
+
 contact:
   Location: Location
   Phone: Phone
