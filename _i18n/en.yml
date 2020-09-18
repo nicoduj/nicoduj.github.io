@@ -183,19 +183,19 @@ services:
     Text:                                   
 
 testimonials:
-  Title:
+  Title: Testimonials
   One:
-    Name:
-    Function:
-    Text:
+    Name: Bernard Poll 
+    Function: Managing Partner at OROXILIA
+    Text: Nicolas is an innovative, creative and very business oriented technical manager. He’s very up-to-date on new technologies. Some could, in that way, call him a “geek”. But obviously, what Nicolas enjoys the most is using this knowledge to build products that will make companies and people’s live easier. Nicolas is very hands-on. He gains respect from his team and from others with a very natural “lead by example” attitude. I really enjoyed working with Nicolas and hope we could find some day an opportunity to do so again !
   Two:
-    Name:
-    Function:
-    Text:
+    Name: Frank Breintenstein
+    Function: CFO, Business Oriented financial guidance, Management of finance operationsand transformation
+    Text: Nicolas is technically sharp and has a diversified technical knowledge. He is analytically minded and has a thorough knowledge of the product, being able to see the big picture and at the same time pay attention to details. I've always appreciated his customer focus, orienting his projects to continuously satisfy the needs of the customer.Nicolas takes on his responsibilities with a lot of professionalism, whether on resources management or financial/budgetary follow-up.From a relational point of view, I have always had excellent and enriching contacts with Nicolas.
   Three:
-    Name:
-    Function:
-    Text:            
+    Name: Aleksander Kasprzyk
+    Function: System & Softwarte Architect at Orone (TESSI group)
+    Text: Travailler sous la responsabilité de Nicolas, c'est une expérience agréable. Il sait parfaitement comment agir pour qu'il n'y ait pas de conflits au sein de l'équipe et si par hasard ça arrive, il les résolut facilement. De plus, il protège bien son équipe.         
 
 contact:
   Location: Location
