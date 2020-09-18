@@ -107,16 +107,16 @@ resume:
       Text3:                                            
 
 portfolio:
-  Title:
-  Text:
-  Filter1:
-  Filter2:
-  Perso1:
-  Perso2:
-  Perso3:      
-  Pro1:
-  Pro2:
-  Pro3:    
+  Title: Portfolio
+  Text: Some of my main projects, either personnal or professionnal
+  Filter1: Community
+  Filter2: Professionnal
+  Perso1: HomeBridge Plugin
+  Perso2: OWASP Cheat Sheet Series
+  Perso3: Machine Learning playground      
+  Pro1: Check Capture Projects
+  Pro2: Documents Capture Projects
+  Pro3: NEw soltuion for Identity Document processing   
 
 portfolioDetail:
   Categorie:
