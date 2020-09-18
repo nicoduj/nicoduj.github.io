@@ -6,8 +6,200 @@ menu:
   Services: Services
   Contact: Contact
 
-title:
+hero:
   Prefixe: Je suis un
   Suffixe1: Ancien Développeur
   Suffixe2: Architecte Logiciel
   Suffixe3: Fan de softs
+
+about:
+  About: A propos de moi
+  Text : Still a Developer in my head, I have a solid experience in team management focused on software building for business needs. After near 15 years of a great experience in a PME, and more than 2 years as a Software Architect for an insurance company, I am ready for new challenges !
+  Job1 : Software Architect
+  Job2 : Developer
+  JobSearchSummary : and open to soft management of a team that wants to build something new !
+  Birthday : Date de naissance
+  Website : Website
+  Phone : Téléphone
+  City : Ville
+  Age : Age
+  Degree : Niveau d'études
+  Email : Email
+  Availability: Disponibilité
+  JobSearch : I like Building. When I was a child, my favorites toys were (and still are) Legos. In my experience, from small projects to big ones, with or without direct management of a team, what I like most is to build software, as a team, piece by piece, and see end-users use them and like them. I see development as a huge Lego game, where you have to build new pieces, and assemble existing ones. I would like now to focus on a real software project, build for and with end users. 
+
+facts:
+  Facts: Faits
+  Text: In the last 17 years, having the chance to play both sides - as a provider or as a customer - I have been involved in more than 10 major projects, for 4 differents countries (France, Belgium, Morocco, Brazil), and lead a team up to 17 people. From Development, Software Architecture, to CTO and what I call "soft" Management, I have always put my knowledge and efforts as a team tp build and integrate software for major banks and insurance.
+  TeamSize: Taille d'équipe 
+  MajorProjects: Projets majeurs
+  Experience: Années d'expérience
+  Countries : Pays
+
+
+skills:
+  Title:
+  Text:
+  One:
+  Two:
+  Three:
+  Four:
+  Five:
+  Six:
+
+resume:
+  Title:
+  Text:
+  Summary:
+  Education:
+    Title:
+    One:
+      Title:
+      Date:
+      Location:
+      Text:
+    Two:
+      Title:
+      Date:
+      Location:
+      Text:
+    Three:
+      Title:
+      Date:
+      Location:
+      Text:
+  Experience:
+    Title:
+    One:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3:      
+    Two:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3:
+    Three:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3: 
+    Four:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3: 
+    Five:
+      Title:
+      Date:
+      Location:
+      Text1:
+      Text2:        
+      Text3:                                            
+
+portfolio:
+  Title:
+  Text:
+  Filter1:
+  Filter2:
+  Perso1:
+  Perso2:
+  Perso3:      
+  Pro1:
+  Pro2:
+  Pro3:    
+
+portfolioDetail:
+  Categorie:
+  Client:
+  ProjectDate:
+  ProjectURL:
+  Perso1:
+    Title:
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Perso2:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Perso3:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Pro1:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Pro2:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:
+  Pro3:
+    Title:    
+    Categorie:
+    Client:
+    ProjectDate:
+    Desc:                              
+
+services:
+  Title:
+  Text:
+  One:
+    Title:
+    Text:
+  Two:
+    Title:
+    Text: 
+  Three:
+    Title:
+    Text: 
+  Four:
+    Title:
+    Text: 
+  Five:
+    Title:
+    Text: 
+  Six:
+    Title:
+    Text:                                   
+
+testimonials:
+  Title:
+  One:
+    Name:
+    Function:
+    Text:
+  Two:
+    Name:
+    Function:
+    Text:
+  Three:
+    Name:
+    Function:
+    Text:            
+
+contact:
+  Location: Adresse
+  Phone: Téléphone
+
+footer:
+  CatchPhrase: J'aime construire des logiciels répondant à de réels besoins métier 
