@@ -51,8 +51,8 @@ resume:
   Title: Resume
   Text:
   Summary:
-  Education: Education
-    Title:
+  Education:
+    Title: Education
     One:
       Title:
       Date:
